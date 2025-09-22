@@ -1,0 +1,8 @@
+services:
+  emule-stats-api:
+    build: .
+    container_name: emule-stats-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./statistics.ini:/data/statistics.ini:ro

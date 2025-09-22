@@ -1,5 +1,5 @@
 ## Emule Homepage widget
-This docker container expose in a web browser the statistics of the Emule client.
+This docker container expose in a web browser the statistics of the Emule client, to get by a [Homepage widget]([url](https://gethomepage.dev/widgets/services/customapi/))
 
 Main statistics exposed:
 * Total bytes uploaded

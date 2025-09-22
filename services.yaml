@@ -1,0 +1,23 @@
+   - eMule Total:
+        icon: /icons/emule.png
+        widget:
+          type: customapi
+          method: GET
+          url: http://[SERVER]:5000/api/emule
+          refreshInterval: 60000   # ms
+          mappings:
+            - field: upload_bytes
+              label: Upload
+              format: bytes
+            - field: download_bytes
+              label: Download
+              format: bytes
+            - field: uptime_seconds
+              label: Uptime
+              format: duration
+            - field: ratio_total
+              label: Ratio
+              format: float
+            - field: session_download_bytes
+              label: Session Download
+              format: bytes
